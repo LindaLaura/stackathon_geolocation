@@ -18,7 +18,7 @@ app.use(express.urlencoded({extended: true}))
 
 // Routes that will be accessed via AJAX should be prepended with
 // /api so they are isolated from our GET /* wildcard.
-app.use('/api', require('./api'))
+ app.use('/api', require('./api'))
 // app.use("/api/products/", require("./api/routes/productRoute"));
 
 // This middleware will catch any URLs resembling a file extension

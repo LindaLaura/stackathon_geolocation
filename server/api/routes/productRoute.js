@@ -1,7 +1,8 @@
 const router = require('express').Router();
 
 const Product = require('../../db/models/product');
-const Ticket = require('../../db/models/ticket');
+const Company = require('../../db/models/company');
+
 
 router.get('/', async (req, res, next) => {
     try {
@@ -13,9 +14,10 @@ router.get('/', async (req, res, next) => {
   
 router.get('/:productId', async (req, res, next) => {
     try {
-        const {productId} = req.params;
-        const product = await Product.findByPk(productId, {
-            include: Ticket
+        // const {productId} = req.params;
+        // console.log(productId)
+        const product = await Product.findByPk(req.params.productId, {
+             include: [Company]
         })
         res.status(200).send(product)
     } catch (err) { next(err) }

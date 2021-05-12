@@ -1,4 +1,4 @@
-const {STRING, DECIMAL, ENUM} = require('sequelize');
+const {STRING, FLOAT, ENUM} = require('sequelize');
 
 //import your db
 const db = require ('../db');
@@ -13,18 +13,18 @@ const Product = db.define('product',{
         }
     },
     longitude:{
-        type: DECIMAL,
-        validate:{
-            min: -180,
-            max: 180
-        }
+        type: FLOAT,
+        // validate:{
+        //     min: -180,
+        //     max: 180
+        // }
     },
     latitude:{
-        type: DECIMAL,
-        validate:{
-            min: -90,
-            max: 90
-        }
+        type: FLOAT,
+        // validate:{
+        //     min: -90,
+        //     max: 90
+        // }
     },
     imageUrl:{
         type: STRING, 
