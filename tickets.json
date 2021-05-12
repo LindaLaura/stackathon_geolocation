@@ -1,0 +1,14 @@
+[
+    {
+        "title": "broken screen",
+        "status": "created",
+        "createdDate": "2021-10-05",
+        "productId": 1
+    },
+    {
+        "title": "overheating",
+        "status": "resolved",
+        "createdDate": "2020-03-05",
+        "productId": 4
+    }
+]
