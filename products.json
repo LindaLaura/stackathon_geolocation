@@ -3,6 +3,7 @@
         "model": "Avalon FM30",
         "longitude": 10.32919,
         "latitude": 44.79718,
+        "address": "Viale Antonio Gramsci, 14, 43126 Parma PR, Italia",
         "imageUrl": "https://images.philips.com/is/image/philipsconsumer/5cccf2fc4e954afeb9c8a77c01586a13?$jpglarge$&bgc=ffffff&wid=498&hei=280",
         "status": "active",
         "companyId": 1
@@ -11,6 +12,7 @@
         "model": "Avalon FM50",
         "longitude": 13.3126,
         "latitude": 43.495,
+        "address" : "Viale Risorgimento, 80, 42123 Reggio Emilia RE, Italia",
         "imageUrl": "https://www.somatechnology.com/blog/wp-content/uploads/2017/06/PhilipsAvalonFm50M2705a.jpg",
         "status": "not active",
         "companyId": 1
@@ -19,6 +21,7 @@
         "model": "Pagewriter TC70",
         "longitude": 14.5476,
         "latitude": 40.9158,
+        "address": "Via Comunale del Principe 13/a - 80145 Napoli",
         "imageUrl": "https://s.yimg.com/aah/yhst-131109535230685/philips-pagewriter-tc50-ecg-machine-860310-36.gif",
         "status": "active",
         "companyId": 1
@@ -27,6 +30,7 @@
         "model": "Isolette T1500",
         "longitude": -87.6842,
         "latitude": 42.0246,
+        "address": "2650 Ridge Ave, Evanston, IL 60201",
         "imageUrl": "https://cdn.medwrench.com/eImg/photoNo/761/25156-asset-eimg-photono-761-o.jpg",
         "status": "active",
         "companyId": 2
@@ -35,6 +39,7 @@
         "model": "BabyTherm 8004/8010",
         "longitude": "-80.212547",
         "latitude": "25.791466",
+        "address": "1611 NW 12th Ave, Miami, FL 33136",
         "imageUrl": "https://www.ehc.com.ly/images/proudect%20image/Babytherm%2080048010/1.png",
         "status": "active",
         "companyId": 2

@@ -14,17 +14,23 @@ const Product = db.define('product',{
     },
     longitude:{
         type: FLOAT,
-        // validate:{
-        //     min: -180,
-        //     max: 180
-        // }
+        validate:{
+            min: -180,
+            max: 180
+        }
     },
     latitude:{
         type: FLOAT,
-        // validate:{
-        //     min: -90,
-        //     max: 90
-        // }
+        validate:{
+            min: -90,
+            max: 90
+        }
+    },
+    address:{
+        type: STRING,
+        validate:{
+            notEmpty:true
+        }
     },
     imageUrl:{
         type: STRING, 

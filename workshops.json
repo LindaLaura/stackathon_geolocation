@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Officina Srl",
+        "longitude": 10.75407,
+        "latitude": 44.69737,
+        "address": "Via Gran Sasso d'Italia, 13/1, 42122 Reggio Emilia RE, Italia"
+    },
+    {
+        "name": "Riparazioni SA",
+        "longitude": 10.94823,
+        "latitude": 44.63931,
+        "address": "Viale Risorgimento, 14, 41132 Modena MO, Italia"
+    },
+    {
+        "name": "AutOfficina ",
+        "longitude": 10.08567,
+        "latitude": 44.86862,
+        "address": "Viale Gramsci, 14, 43036 Fidenza FI, Italia"
+    },
+    {
+        "name": "Zucchetti Sarl",
+        "longitude": 10.24836,
+        "latitude": 44.60796,
+        "address": "Via Zandonai, 14, 43013 Langhirano PR, Italia"
+    }
+]

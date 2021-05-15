@@ -3,6 +3,8 @@ import {connect} from 'react-redux';
 import {fetchProducts} from '../client/store/thunks/productThunks';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import Allproducts from './components/Allproducts';
+import CreateTicket from './components/CreateTicket';
+import SingleProduct from './components/SingleProduct';
 
 
 class App extends Component {
@@ -12,14 +14,16 @@ class App extends Component {
 
     async componentDidMount(){
          await this.props.loadProducts();
-        // console.log(this.props)
+         //console.log(this.props)
     }
 
     render(){
         return(
             <Router>
                 <div>
-                    <Route component={Allproducts}/>
+                    <Route component={Allproducts} path='/' exact/>
+                    <Route component={CreateTicket}  path='/createTicket/:id' exact/>
+                    <Route component={SingleProduct}  path='/singleProduct' exact/>
                 </div>
             </Router>
         )

@@ -22,17 +22,14 @@ import {
       };
   };
   
-  const addTicket= (newTicket, history) => {
+  const addTicket= (newTicket, {history}) => {
       return async (dispatch) => {
-      //   const headerToken = {
-      //     headers: { authorization: window.localStorage.getItem("token") },
-      //   }; per la sicurezza della api
         const { data: ticket } = await axios.post(
           `/api/tickets/`,
           newTicket,
         );
         dispatch(createTicket(ticket));
-        history.push(`/tickets/${ticket.id}`);
+        history.push('/SingleProduct');
       };
   };
   

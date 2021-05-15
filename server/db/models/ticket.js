@@ -14,7 +14,8 @@ const Ticket = db.define('ticket', {
     // },
     status: {
         type:ENUM,
-        values:['created', 'deleted', 'resolved']
+        values:['created', 'deleted', 'resolved'],
+        defaultValue:'created'
     },
     createdDate:{
         type:DATE,

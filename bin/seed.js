@@ -23,6 +23,7 @@ const seed = async () => {
         model: product.model,
         longitude: product.longitude,
         latitude: product.latitude,
+        address: product.address,
         imageUrl: product.imageUrl,
         status: product.status,
         companyId: product.companyId

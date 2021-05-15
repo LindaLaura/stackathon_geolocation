@@ -16,8 +16,8 @@ router.get('/', async(req, res, next) =>{
 
 router.get('/:ticketId', async(req, res, next) =>{
     try{
-        const ticket = Ticket.findByPk(req.params.ticketId, {
-        });
+        const ticket = await Ticket.findByPk(req.params.ticketId);
+        // console.log(ticket, ' API ROUTE')
         res.status(200).send(ticket);
     }
     catch(ex){
